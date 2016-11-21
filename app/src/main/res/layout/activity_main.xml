@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:lgx="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lgx.horizontalview.MainActivity">
+
+    <lgx.horizontalview.HorizontalRoadView
+        android:id="@+id/mroadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        lgx:carBg="@drawable/schoolbus"
+        lgx:locationBg="@drawable/marker"
+        lgx:lineColor="#00ffff"
+        lgx:roadNum="7"
+        lgx:roadText="广州 大学城 大学城北 大学城南 琶洲 黄村 华南师范大学"/>
+
+    <!-- 地点记得用" "分开-->
+        />
+
+    <Button
+        android:id="@+id/nextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="位置移到下一位"
+        />
+    <Button
+        android:id="@+id/nextCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="车移到下一位"/>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalRoadView">
+        <!-- 车的图片-->
+        <attr name="carBg" format="reference"/>
+        <!-- 位置的图片-->
+        <attr name="locationBg" format="reference"/>
+        <!-- 路线地点的数目-->
+        <attr name="roadNum" format="integer"/>
+        <!-- 路线的颜色-->
+        <attr name="lineColor" format="color"/>
+        <!-- 路线的地点，用空格分开，eg 当roadnum=2时，设置为"大学城 小学城"-->
+        <attr name="roadText" format="string"/>
+    </declare-styleable>
+</resources>
